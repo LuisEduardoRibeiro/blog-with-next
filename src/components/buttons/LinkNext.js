@@ -12,7 +12,7 @@ const A = styled.a`
 
 const LinkNext = (props) => {
     return (
-        <Link className="uk-link-heading" href={props.href} {...props}>
+        <Link className='uk-link-heading' href={props.href}>
             <A>{props.children}</A>
         </Link>
     )

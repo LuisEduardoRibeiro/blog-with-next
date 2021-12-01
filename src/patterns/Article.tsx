@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { TitleArticle, P } from '../components/typography'
 import LinkNext from '../components/buttons/LinkNext'
-import Post from '../core/post'
+import Post from '../core/Post'
 
 interface tPost {
     post: Post
